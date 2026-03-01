@@ -1,0 +1,37 @@
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Microsoft Office temp files
+~$*.xlsx
+~$*.pptx
+~$*.docx
+
+# Power BI temp/cache
+*.pbix.bak
+.PowerBIDesktop/
+
+# VS Code
+.vscode/
+
+# Python (if used for data processing)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
