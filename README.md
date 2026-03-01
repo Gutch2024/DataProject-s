@@ -1,6 +1,11 @@
 # EuroEdu Analytics Center
 ## Data Warehouse & Business Intelligence — Gender Parity in European Higher Education
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Tool](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi&logoColor=black)
+![Data](https://img.shields.io/badge/Data-Eurostat%20%2F%20PORDATA-003399?logo=europeanunion&logoColor=white)
+![Period](https://img.shields.io/badge/Period-2013--2023-blue)
+
 > **Analysis period:** 2013–2023 · **Data source:** PORDATA / Eurostat · **Tool:** Power BI Desktop
 
 ---
@@ -16,6 +21,18 @@ This project builds a **Data Warehouse and Business Intelligence solution** to a
 
 ---
 
+## Dashboard Preview
+
+> **Screenshots coming soon** — open `report/Relatorio-DW-BI.pbix` in Power BI Desktop to explore the full interactive report.
+
+<!-- Once you have screenshots, replace the lines below:
+![Global Overview Dashboard](docs/images/dashboard-overview.png)
+![Country Comparison](docs/images/dashboard-countries.png)
+![Time Trends](docs/images/dashboard-trends.png)
+-->
+
+---
+
 ## Repository Structure
 
 ```
@@ -25,12 +42,15 @@ DataProject-s/
 ├── report/
 │   └── Relatorio-DW-BI.pbix                   # Power BI report (requires Power BI Desktop)
 ├── docs/
-│   ├── Report-DW-BI-EN.pdf                    # Full report (English)
-│   └── Relatorio-DW-BI-PT.pdf                 # Full report (Portuguese)
+│   ├── Report-DW-BI-EN.pdf                    # Full project report (English)
+│   ├── Relatorio-DW-BI-PT.pdf                 # Full project report (Portuguese)
+│   └── images/                                # Dashboard screenshots
+├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
-> **Note:** To open the `.pbix` file, download [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free). Refresh data source pointing to `data/Data-Warehouse-Business-Project.xlsx`.
+> **Note:** To open the `.pbix` file, download [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free). Refresh the data source pointing to `data/Data-Warehouse-Business-Project.xlsx`.
 
 ---
 
@@ -97,6 +117,12 @@ Fact table **`FactEnsinoSuperior`** with granularity at `Year + Country + Gender
 2. Open `report/Relatorio-DW-BI.pbix` in Power BI Desktop.
 3. If prompted, update the data source path to `data/Data-Warehouse-Business-Project.xlsx`.
 4. Click **Refresh** to reload data.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
